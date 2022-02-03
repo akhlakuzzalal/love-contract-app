@@ -1,0 +1,16 @@
+.banner-cloud {
+    position: relative;
+    left: 30%;
+    width: 70%;
+    margin-bottom: -270px;
+    top: -270px;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-text {
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    width: 80%;
+}
