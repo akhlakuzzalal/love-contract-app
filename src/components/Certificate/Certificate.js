@@ -7,7 +7,7 @@ const Certificate = () => {
         <div>
             <Grid container spacing={2}>
             <Grid item xs={6}>
-                <h1>Contact me </h1>
+                <h1>Certificate &amp; Alignment</h1>
             </Grid>
             <Grid item xs={6}>
                 <img src={alignmentImg} alt=''/>
