@@ -1,19 +1,20 @@
 import { Grid } from '@mui/material';
 import React from 'react';
+import instractionImg from '../../img/instraction.png'
 
-const Part7 = () => {
+const Instraction = () => {
     return (
         <div>
             <Grid container spacing={2}>
             <Grid item xs={6}>
-                <h1>1st grid</h1>
+                <h1>Instraction</h1>
             </Grid>
             <Grid item xs={6}>
-                <h1>2nd grid</h1>
+                <img src={instractionImg} alt=''/>
             </Grid>
-            </Grid>
+        </Grid>
         </div>
     );
 };
 
-export default Part7;
+export default Instraction;

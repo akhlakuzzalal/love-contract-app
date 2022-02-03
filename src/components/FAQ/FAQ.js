@@ -1,7 +1,7 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 
-const Part6 = () => {
+const FAQ = () => {
     return (
         <div>
         <Grid container spacing={2}>
@@ -16,4 +16,4 @@ const Part6 = () => {
     );
 };
 
-export default Part6;
+export default FAQ;
