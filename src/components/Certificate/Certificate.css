@@ -1,0 +1,9 @@
+.container {
+    padding: 40px 80px;
+}
+.certificate-input {
+    width: 75%;
+    margin-top: 10px !important;
+    background-color: white;
+    border-radius: 5px;
+}
