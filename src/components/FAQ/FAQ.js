@@ -21,10 +21,10 @@ const FAQ = () => {
    <Grid container spacing={2}>
      
    
-       <Grid item xs={6}>
+       <Grid item xs={12} md={6}>
            
-       <div>
-      <Accordion  style={{background: 'transparent',  boxShadow: 'none'}}>
+       <div className='acordion-border'>
+      <Accordion className='acordion-border'  style={{background: 'transparent',  boxShadow: 'none'}}>
         <AccordionSummary 
          aria-controls="panel2a-content"
           >
@@ -66,8 +66,8 @@ const FAQ = () => {
          
         
        </Grid>
-       <Grid sx={{display:'flex',justifyContent:'center'}} item xs={6}>
-          <img className='faq-img' src={faqImg} alt=''/>
+       <Grid sx={{display:'flex',justifyContent:'center'}} item xs={12} md={6}>
+          <img className='section-img' width={'400px'} src={faqImg} alt=''/>
        </Grid>
    </Grid>
 </div>
