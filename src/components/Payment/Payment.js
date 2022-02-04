@@ -11,17 +11,15 @@ import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
+import FormatBoldIcon from '@mui/icons-material/FormatBold';
 
 const Payment = () => {
     return (
          <div className="container">
          <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={third} alt="" /></span>Payment</h1>
          <Grid container spacing={2}>
-             
                 <Grid item xs={6}>
                 <div className="pay-item">
-                
                     <p><CreditCardIcon/> Pay with Credit</p>
                     <FormControl>
                         <RadioGroup
@@ -29,42 +27,53 @@ const Payment = () => {
                             defaultValue="female"
                             name="radio-buttons-group"
                         >
-                            <FormControlLabel value="female" control={<Radio />} label="Female" />
+                            <FormControlLabel value="female" control={<Radio />} label="" />
                         </RadioGroup>
                     </FormControl>
-                    
-               
                 </div>
-                    
-                    {/* <li className='pay-item'>Pay with Crypto</li> */}
+                <div className="pay-item">
+                    <p><FormatBoldIcon/>Pay with Crypto</p>
+                    <FormControl>
+                        <RadioGroup
+                            aria-labelledby="demo-radio-buttons-group-label"
+                            defaultValue="female"
+                            name="radio-buttons-group"
+                        >
+                            <FormControlLabel value="female" control={<Radio />} label="" />
+                        </RadioGroup>
+                    </FormControl>
+                </div>
                 
                 </Grid>
                 <Grid item xs={6}>
-                     <img width={'380px'} src={payImg} alt=''/>
+                     <img className='mt-80' width={'380px'} src={payImg} alt=''/>
                 </Grid>
             </Grid>
-         <Grid container spacing={2}>
+         <Grid  container spacing={2}>
                 <Grid item xs={6}>
-                    
-                <ul>
-                    <p className='pay-lf-btn'> <CreditCardIcon /> Pay with Credit instractions</p>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <div className="pay-lf-btn">
+                    <p className='pay-item'><FormatBoldIcon/>Pay with Credit instractions</p>
+                </div>
+                <ul className='ml'>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                    
                    
                 </ul>
                 </Grid>
-                <Grid item xs={6}>
-                <ul>
-                    <p className='pay-lf-btn pay-rf-btn'> <AccountBalanceWalletIcon />Connect your Wallet</p>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                    <li className='pay-list'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <Grid  item xs={6}>
+                <div className="pay-lf-btn pay-rf-btn">
+                    <p className='pay-item'><FormatBoldIcon/>Connect your Wallet</p>
+                </div>
+                <ul className='ml'>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 </ul>
                 </Grid>
             </Grid>

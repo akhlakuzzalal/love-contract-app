@@ -4,49 +4,53 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import './Nested-Accordion.css'
 
 const NestedAccordion = () => {
     return (
         <div style={{marginLeft: '30px'}}>
-        <Accordion>
+        <Accordion style={{background: 'transparent', boxShadow: 'none'}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color: 'white'}} />}
             aria-controls="panel1a-content"
-            id="panel1a-header"
           >
-            <Typography>Accordion 1</Typography>
+            <Typography style={{color: 'white'}}> What is Contract of Love?</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            <Typography className='accordion-text'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ad nam tenetur laboriosam rem aliquid exercitationem fugiat tempore eum repellat 
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+
+        <Accordion style={{background: 'transparent', boxShadow: 'none'}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{color: 'white'}}/>}
             aria-controls="panel2a-content"
-            id="panel2a-header"
           >
-            <Typography>Accordion 2</Typography>
+            <Typography style={{color: 'white'}}>What is CL?</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            <Typography className='accordion-text'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ad nam tenetur laboriosam rem aliquid exercitationem fugiat tempore eum repellat.
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion disabled>
+
+        <Accordion style={{background: 'transparent', boxShadow: 'none'}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel3a-content"
-            id="panel3a-header"
+          expandIcon={<ExpandMoreIcon style={{color: 'white'}}/>}
+            aria-controls="panel2a-content"
           >
-            <Typography>Disabled Accordion</Typography>
+            <Typography style={{color: 'white'}}>Why is Contract of Love used?</Typography>
           </AccordionSummary>
+          <AccordionDetails>
+            <Typography className='accordion-text'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ad nam tenetur laboriosam rem aliquid exercitationem fugiat tempore eum repellat 
+            </Typography>
+          </AccordionDetails>
         </Accordion>
+      
       </div>
     );
 };
