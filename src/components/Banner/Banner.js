@@ -9,7 +9,7 @@ import { AiFillFacebook } from 'react-icons/ai';
 
 const Banner = () => {
     return (
-        <div className='container'>
+        <div className='container banner-area'>
             <div className='icon-container'>
                 <AiOutlineYoutube className='banner-icon'/>
                 <AiOutlineInstagram className='banner-icon'/>

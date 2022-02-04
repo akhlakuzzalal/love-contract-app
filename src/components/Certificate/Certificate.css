@@ -1,11 +1,17 @@
 .container {
     padding: 40px 80px;
 }
+
 .certificate-input {
     width: 75%;
     margin-top: 10px !important;
     background-color: white;
     border-radius: 5px;
+}
+.create-text{
+    color: #CDCDCD;
+    font-size: 16px ;
+    font-weight: 500;
 }
 .certificate-input:hover{
     border: 0 !important;
@@ -39,11 +45,20 @@
     align-items: center;
     line-height: 0;
 }
+<<<<<<< HEAD
 
 .InfiniteCarouselDots {
     display: none;
 }
 
+=======
+.InfiniteCarouselArrowIcon {
+	display: inline-block;
+	padding: 10px;
+	border: solid #fff ;
+	border-width: 0 5px 5px 0;
+}
+>>>>>>> d124147277f2ae35e7b3a529ba2dcfc646e63b15
 /* Button wrapper */
 
 .btn-wrapper {
@@ -57,14 +72,18 @@
     width: 100%;
     border: 2px solid #bcbcbc;
     margin-top: 10px;
-    color: rgb(13 13 13);
+    color: #CDCDCD;
     background-color: #ffffff;
     padding: 14px 15px;
     border-radius: 8px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
     align-items: center;
     justify-content: center;
+}
+.up-icon{
+    color: #FF2646;
+    margin-right: 15px;
 }
  .btn-wrapper input[type=file] {
     font-size: 100px;
