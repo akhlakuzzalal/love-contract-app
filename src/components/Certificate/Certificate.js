@@ -10,9 +10,9 @@ import CertificateSlider from './CertificateSlider';
 const Certificate = () => {
     return (
         <div className='container'>
-          <h1 id='#heading-text'><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Akignment</h1>
             <Grid sx={{textAlign:'center',color:"#ffff"}} container spacing={2}>
                 <Grid  item xs={12} md={6}>
+                <h1 id='#heading-text'><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Akignment</h1>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
                         <FormControl className='radio-btn'>
