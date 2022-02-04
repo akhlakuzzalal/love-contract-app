@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import React from 'react';
 import faqImg from '../../img/faq.png'
 import four from '../../img/love-point/love4.png'
+import './FAQ.css'
 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -19,22 +20,43 @@ const FAQ = () => {
        <Grid item xs={6}>
            
        <div>
-     
       <Accordion  style={{background: 'transparent',  boxShadow: 'none'}}>
         <AccordionSummary
          aria-controls="panel2a-content" >
-          <Typography>Accordion 2</Typography>
+          <Typography className='accordion-title'>Category 1</Typography>
         </AccordionSummary>
         <AccordionDetails>
         <NestedAccordion></NestedAccordion>
         </AccordionDetails>
       </Accordion>
-      <hr style={{}}/>
-
+      <Accordion  style={{background: 'transparent', boxShadow: 'none'}}>
+        <AccordionSummary
+         aria-controls="panel2a-content" >
+          <Typography className='accordion-title'>Category 2</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <NestedAccordion></NestedAccordion>
+        </AccordionDetails>
+      </Accordion>
      
-     
-     
-      {/* borderBottom: '1px solid #fff', */}
+      <Accordion  style={{background: 'transparent',  boxShadow: 'none'}}>
+        <AccordionSummary
+         aria-controls="panel2a-content" >
+          <Typography className='accordion-title'>Category 3</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <NestedAccordion></NestedAccordion>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion  style={{background: 'transparent',  boxShadow: 'none'}}>
+        <AccordionSummary
+         aria-controls="panel2a-content" >
+          <Typography className='accordion-title'>Category 4</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <NestedAccordion></NestedAccordion>
+        </AccordionDetails>
+      </Accordion>
     </div>
          
         
