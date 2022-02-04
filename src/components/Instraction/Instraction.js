@@ -10,7 +10,10 @@ const Instraction = () => {
         <div className='container'>
             <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
-                <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={first} alt="" /></span> Instraction</h1>
+            <div className="setion-title">
+        <img width={'50px'} src={first} alt="" />
+        <h1 className='border' >Instraction</h1>
+        </div>
                 <ul>
                     <li className='inserted-style'><span className='cheakbox-icon'><BsCheck2Square className='icon'/></span><span className='instract-item'>Unlimited Likes</span></li>
                     <li className='inserted-style'><span className='cheakbox-icon'><BsCheck2Square className='icon'/></span><span className='instract-item'>Unlimited Likes</span></li>
