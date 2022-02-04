@@ -1,11 +1,16 @@
+
 .instract-item {
-    clip-path: polygon(5% 0%,95% 0%,100% 50%,95% 100%,5% 100%,0% 50%);
-    background-color: white;
-    padding: 10px 30px;
-    width: 100%;
-    margin-left: 15px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 5px #c4bcbc;
+	-webkit-clip-path: polygon(5% 0%,95% 0%,100% 50%,95% 100%,5% 100%,0% 50%);
+	clip-path: polygon(5% 0%,95% 0%,100% 50%,95% 100%,5% 100%,0% 50%);
+	background-color: white;
+	padding: 10px 30px;
+	width: 100%;
+	margin-left: 15px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 5px #c4bcbc;
+	color: #FF2646;
+	font-size: 18px;
+	font-weight: 500;
 }
 .inserted-style {
     display: flex;

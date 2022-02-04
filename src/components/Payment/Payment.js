@@ -5,7 +5,7 @@ import third from '../../img/love-point/love3.png'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
-// import { BsCurrencyBitcoin } from "react-icons/fa";
+import {BsCurrencyBitcoin} from 'react-icons/bs';
 
 
 import './Payment.css'
@@ -38,7 +38,7 @@ const Payment = () => {
                     </FormControl>
                 </div>
                 <div className="pay-item">
-                    <p>Pay with Crypto</p>
+                    <p><BsCurrencyBitcoin className='bit-icon'/>Pay with Crypto</p>
                     <FormControl className='radio-red'>
                         <RadioGroup
                             aria-labelledby="demo-radio-buttons-group-label"

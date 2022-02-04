@@ -5,7 +5,6 @@ import './ContactUs.css'
 import fifth from '../../img/love-point/love5.png'
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import ChatIcon from '@mui/icons-material/Chat';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
 const ContactUs = () => {
@@ -40,21 +39,23 @@ const ContactUs = () => {
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
                 <div className='contact-us-input-container'>
-                    <h5>Your name</h5>
-                    <TextField className='contact-us-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>Name</span></h6>} variant="outlined" />
+                    <h5 className='contact-title'>Your name</h5>
+                    <TextField className='contact-us-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span  className='create-text'>Name</span></h6>} variant="outlined" />
                 </div>
                 <div className='contact-us-input-container'>
-                    <h5>Email</h5>
-                    <TextField className='contact-us-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>Name</span></h6>} variant="outlined" />
+                    <h5 className='contact-title'>Email</h5>
+                    <TextField className='contact-us-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span  className='create-text'>Email</span></h6>} variant="outlined" />
                 </div>
                 <div className='contact-us-input-container'>
-                    <h5>Contact reason</h5>
+                    <h5 className='contact-title'>Contact Reason</h5>
                     <TextField
                         id="outlined-select-currency"
                         className='contact-us-input'
                         select
                         value={currency}
+                      
                         onChange={(event)=>setCurrency(event.target.value)}
+                        
                     >
                         {currencies.map((option) => (
                           <MenuItem key={option.value} value={option.value}>
@@ -64,11 +65,11 @@ const ContactUs = () => {
                      </TextField>
                 </div>
                 <div className='contact-us-input-container'>
-                <h5>Message</h5>
+                <h5 className='contact-title'>Message</h5>
                 <TextField
                     className='contact-message'
                     id="outlined-multiline-static"
-                    label={<h6 className='lebel-icon'><ChatIcon/> <span>Message</span></h6>}
+                    label={<h6 className='lebel-icon'><ChatIcon/> <span  className='create-text'>Message</span></h6>}
                     multiline
                     rows={5}
                 />
