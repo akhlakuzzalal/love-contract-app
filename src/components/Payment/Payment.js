@@ -4,23 +4,30 @@ import payImg from '../../img/payment.png'
 import third from '../../img/love-point/love3.png'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
+// import { BsCurrencyBitcoin } from "react-icons/fa";
+
+
 import './Payment.css'
 
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-import FormatBoldIcon from '@mui/icons-material/FormatBold';
 
 const Payment = () => {
     return (
          <div className="container">
-         <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={third} alt="" /></span>Payment</h1>
+             
+        <div className="setion-title">
+        <img width={'50px'} src={third} alt="" />
+        <h1 className='border'>Payment</h1>
+        </div>
          <Grid container spacing={2}>
                 <Grid item xs={6}>
                 <div className="pay-item">
                     <p><CreditCardIcon/> Pay with Credit</p>
-                    <FormControl>
+                    <FormControl className='radio-red'>
                         <RadioGroup
                             aria-labelledby="demo-radio-buttons-group-label"
                             defaultValue="female"
@@ -31,8 +38,8 @@ const Payment = () => {
                     </FormControl>
                 </div>
                 <div className="pay-item">
-                    <p><FormatBoldIcon/>Pay with Crypto</p>
-                    <FormControl>
+                    <p>Pay with Crypto</p>
+                    <FormControl className='radio-red'>
                         <RadioGroup
                             aria-labelledby="demo-radio-buttons-group-label"
                             defaultValue="female"
@@ -51,7 +58,7 @@ const Payment = () => {
          <Grid  container spacing={2}>
                 <Grid item xs={6}>
                 <div className="pay-lf-btn">
-                    <p className='pay-item'><FormatBoldIcon/>Pay with Credit instractions</p>
+                    <p className='pay-lf-item'><CreditCardIcon/>Pay with Credit instractions</p>
                 </div>
                 <ul className='ml'>
                     <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -64,8 +71,8 @@ const Payment = () => {
                 </ul>
                 </Grid>
                 <Grid  item xs={6}>
-                <div className="pay-lf-btn pay-rf-btn">
-                    <p className='pay-item'><FormatBoldIcon/>Connect your Wallet</p>
+                <div className="pay-rf-btn ">
+                    <p className='pay-lf-item'><AccountBalanceWalletIcon/>Connect your Wallet</p>
                 </div>
                 <ul className='ml'>
                     <li className='pay-list ml'> <StarRateIcon className='star-icon'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>

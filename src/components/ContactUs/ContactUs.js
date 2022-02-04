@@ -5,6 +5,7 @@ import './ContactUs.css'
 import fifth from '../../img/love-point/love5.png'
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import ChatIcon from '@mui/icons-material/Chat';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
 const ContactUs = () => {
@@ -31,7 +32,11 @@ const ContactUs = () => {
 
     return (
         <div className='container'>
-            <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={fifth} alt="" /></span> Contact Us</h1>
+                <div className="setion-title">
+                <img width={'50px'} src={fifth} alt="" />
+            <h1 className='border'>Contact Us</h1>
+            </div>
+            
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
                 <div className='contact-us-input-container'>
