@@ -7,3 +7,57 @@
     background-color: white;
     border-radius: 5px;
 }
+.radio-btn .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #ffffff;
+}
+.radio-btn .css-hyxlzm {
+    color: #ffff;
+}
+.lebel-icon {
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.lebel-icon .css-i4bv87-MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.contact-message {
+    width: 75%;
+    background-color: #ffff;
+    margin-top: 10px !important;
+    border-radius: 5px;
+}
+
+/* Button wrapper */
+
+.btn-wrapper {
+    width: 75%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.upload-btn {
+    display: flex;
+    width: 100%;
+    border: 2px solid #bcbcbc;
+    margin-top: 10px;
+    color: rgb(13 13 13);
+    background-color: #ffffff;
+    padding: 14px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+ .btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }

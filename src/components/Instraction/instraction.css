@@ -1,9 +1,19 @@
 .instract-item {
-    list-style: none;
+    clip-path: polygon(5% 0%,95% 0%,100% 50%,95% 100%,5% 100%,0% 50%);
     background-color: white;
-    margin-top: 15px;
     padding: 10px 30px;
-    width: 70%;
+    width: 100%;
+    margin-left: 15px;
     border-radius: 30px;
     box-shadow: 0px 0px 5px #c4bcbc;
+}
+.inserted-style {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    width: 75%;
+    align-items: center;
+}
+.cheakbox-icon{
+    color: #ffff;
 }
