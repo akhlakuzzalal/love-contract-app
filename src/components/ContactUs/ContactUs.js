@@ -5,7 +5,6 @@ import './ContactUs.css'
 import fifth from '../../img/love-point/love5.png'
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import ChatIcon from '@mui/icons-material/Chat';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
 const ContactUs = () => {
