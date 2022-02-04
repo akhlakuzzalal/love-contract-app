@@ -32,31 +32,31 @@ const CertificateSlider = () => {
     slidesToShow={4}
     scrollOnDevice={true}
   >
-    <div>
+    <div className='slider-img'>
       <img
         alt=''
         src={img1}
       />
     </div>
-    <div>
+    <div className='slider-img'>
       <img
         alt=''
         src={img2}
       />
     </div>
-    <div>
+    <div className='slider-img'>
       <img
         alt=''
         src={img3}
       />
     </div>
-    <div>
+    <div className='slider-img'>
       <img
         alt=''
         src={img4}
       />
     </div>
-    <div>
+    <div className='slider-img'>
       <img
         alt=''
         src={img1}

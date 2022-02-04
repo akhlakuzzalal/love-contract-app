@@ -8,7 +8,7 @@ import './Nested-Accordion.css'
 
 const NestedAccordion = () => {
     return (
-        <div style={{marginLeft: '30px'}}>
+        <div className='acordion-border-active' style={{marginLeft: '30px'}}>
         <Accordion style={{background: 'transparent', boxShadow: 'none'}}>
           <AccordionSummary
           expandIcon={<ExpandMoreIcon style={{color: 'white'}} />}
