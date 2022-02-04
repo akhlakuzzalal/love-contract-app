@@ -5,16 +5,17 @@ import CreateCertificate from './CreateCertificate';
 import Preview from './Preview';
 import './Certificate.css'
 import second from '../../img/love-point/love2.png'
+import CertificateSlider from './CertificateSlider';
 
 const Certificate = () => {
     return (
         <div className='container'>
           <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Akignment</h1>
-            <Grid container spacing={2}>
-                <Grid  item xs={6}>
+            <Grid sx={{textAlign:'center',color:"#ffff"}} container spacing={2}>
+                <Grid  item xs={12} md={6}>
                     <Grid container spacing={2}>
                         <Grid item xs={6}>
-                        <FormControl>
+                        <FormControl className='radio-btn'>
                          <RadioGroup
                            aria-labelledby="demo-radio-buttons-group-label"
                            defaultValue="female"
@@ -27,7 +28,7 @@ const Certificate = () => {
                         </FormControl>
                         </Grid>
                         <Grid item xs={6}>
-                        <FormControl>
+                        <FormControl className='radio-btn'>
                          <RadioGroup
                            aria-labelledby="demo-radio-buttons-group-label"
                            defaultValue="female"
@@ -40,10 +41,11 @@ const Certificate = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid sx={{display:'flex',justifyContent:'center'}} item xs={6}>
+                <Grid sx={{display:'flex',justifyContent:'center'}} item xs={12} md={6}>
                    <img width={'400px'} src={alignmentImg} alt=''/>
                 </Grid>
             </Grid>
+            <CertificateSlider></CertificateSlider>
             <CreateCertificate></CreateCertificate>
             <Preview></Preview>
         </div>
