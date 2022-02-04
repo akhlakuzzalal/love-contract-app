@@ -13,7 +13,7 @@ const ContactUs = () => {
     const currencies = [
         {
           value: `select`,
-          label: <h6 className='lebel-drop-icon'><PersonOutlinedIcon className='drop-lebel-margin'/> <span>Select One</span></h6>,
+          label: <h6 className='lebel-drop-icon'><PersonOutlinedIcon className='drop-lebel-margin'/> <span className='create-text'>Select One</span></h6>,
         },
         {
           value: 'EUR',
