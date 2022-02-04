@@ -24,7 +24,7 @@ const Payment = () => {
         <h1 className='border'>Payment</h1>
         </div>
          <Grid container spacing={2}>
-                <Grid item xs={6}>
+                <Grid item  md={6} xs={12}>
                 <div className="pay-item">
                     <p><CreditCardIcon/> Pay with Credit</p>
                     <FormControl className='radio-red'>
@@ -51,12 +51,12 @@ const Payment = () => {
                 </div>
                 
                 </Grid>
-                <Grid item xs={6}>
-                     <img className='mt-80' width={'380px'} src={payImg} alt=''/>
+                <Grid item md={6} xs={12}>
+                     <img className='mt-80 pay-img' width={'380px'} src={payImg} alt=''/>
                 </Grid>
             </Grid>
          <Grid  container spacing={2}>
-                <Grid item xs={6}>
+                <Grid item md={6} xs={12}>
                 <div className="pay-lf-btn">
                     <p className='pay-lf-item'><CreditCardIcon/>Pay with Credit instractions</p>
                 </div>
@@ -70,7 +70,7 @@ const Payment = () => {
                    
                 </ul>
                 </Grid>
-                <Grid  item xs={6}>
+                <Grid  item  md={6} xs={12}>
                 <div className="pay-rf-btn ">
                     <p className='pay-lf-item'><AccountBalanceWalletIcon/>Connect your Wallet</p>
                 </div>
