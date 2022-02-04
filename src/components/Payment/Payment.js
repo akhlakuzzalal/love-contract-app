@@ -3,7 +3,6 @@ import React from 'react';
 import payImg from '../../img/payment.png'
 import third from '../../img/love-point/love3.png'
 import StarRateIcon from '@mui/icons-material/StarRate';
-import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import './Payment.css'
 
