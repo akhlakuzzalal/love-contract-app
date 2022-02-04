@@ -1,0 +1,46 @@
+.pay-list {
+    list-style: none;
+    padding: 5px 20px;
+    color: #fff;
+}
+.pay-lf-btn{
+    list-style: none;
+    background-color: white;
+    color: #FF2646;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    width: 55%;
+    box-shadow: 0px 0px 5px #c4bcbc;
+}
+.pay-rf-btn{
+    width: 40%;
+}
+.star-icon{
+    font-size: 15px !important;
+}
+.pay-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #ff2646;
+    font-size: 20px;
+}
+/* .pay-item p{
+    background-color: white;
+    color: #FF2646;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 8px 10px;
+    width: 55%;
+    box-shadow: 0px 0px 5px #c4bcbc;
+} */

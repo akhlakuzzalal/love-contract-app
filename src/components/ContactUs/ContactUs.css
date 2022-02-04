@@ -1,12 +1,28 @@
 
 h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
+    font-size: 55px;
     color: #fff;
     font-weight: 700px;
     margin-bottom: 10px;
 }
-hr{
-    width: 30%;
-    background: #fff;
+
+.message-input {
+    width: 75%;
+    height: 200px;
+    margin-top: 10px !important;
+    background-color: white;
+    border-radius: 5px;
+    transform: skew(21deg 21deg 40deg 50deg); 
 }
+/* chrome , safari, edge, opera  */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+} */

@@ -1,7 +1,7 @@
 .App {
   background: url("/src/img/background-image.png");
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 
