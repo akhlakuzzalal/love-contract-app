@@ -10,7 +10,10 @@ import HttpsOutlinedIcon from '@mui/icons-material/HttpsOutlined';
 const CreateCertificate = () => {
     return (
         <div>
-            <h1>Create Certificate</h1>
+            <div className="setion-title">
+            <h1 className='border'>Create Certificate</h1>
+            </div>
+
             <Grid container spacing={2}>
             <Grid sx={{display:'flex',justifyContent:'center'}} item xs={12} md={6}>
                    <img className='section-img' width={'400px'} src={createImg} alt=''/>

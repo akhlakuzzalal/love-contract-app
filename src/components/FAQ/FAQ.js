@@ -13,7 +13,11 @@ import NestedAccordion from '../Nested-Accordion/Nested-Accordion'
 const FAQ = () => {
     return (
       <div className='container'>
-      <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={four} alt="" /></span>FAQ</h1>
+         <div className="setion-title">
+        <img width={'50px'} src={four} alt="" />
+        <h1 className='border'>FAQ</h1>
+        </div>
+      
    <Grid container spacing={2}>
      
    
@@ -21,8 +25,9 @@ const FAQ = () => {
            
        <div>
       <Accordion  style={{background: 'transparent',  boxShadow: 'none'}}>
-        <AccordionSummary
-         aria-controls="panel2a-content" >
+        <AccordionSummary 
+         aria-controls="panel2a-content"
+          >
           <Typography className='accordion-title'>Category 1</Typography>
         </AccordionSummary>
         <AccordionDetails>
