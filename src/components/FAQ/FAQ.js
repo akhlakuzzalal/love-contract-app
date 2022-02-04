@@ -67,7 +67,7 @@ const FAQ = () => {
         
        </Grid>
        <Grid sx={{display:'flex',justifyContent:'center'}} item xs={6}>
-          <img className='section-img' width={'400px'} src={faqImg} alt=''/>
+          <img className='faq-img' src={faqImg} alt=''/>
        </Grid>
    </Grid>
 </div>
