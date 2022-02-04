@@ -28,14 +28,14 @@ const Payment = () => {
                 <div className="pay-item">
                     <p><CreditCardIcon/> Pay with Credit</p>
                     <FormControl className='radio-red'>
-                        <RadioGroup
-                            aria-labelledby="demo-radio-buttons-group-label"
-                            defaultValue="female"
-                            name="radio-buttons-group"
-                        >
-                            <FormControlLabel value="female" control={<Radio />} label="" />
-                        </RadioGroup>
-                    </FormControl>
+                         <RadioGroup
+                           aria-labelledby="demo-radio-buttons-group-label"
+                           defaultValue="female"
+                           name="radio-buttons-group"
+                         >
+                           <FormControlLabel value="love" control={<Radio />} label="" />
+                         </RadioGroup>
+                        </FormControl>
                 </div>
                 <div className="pay-item">
                     <p><BsCurrencyBitcoin className='bit-icon'/>Pay with Crypto</p>

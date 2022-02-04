@@ -45,20 +45,30 @@
     align-items: center;
     line-height: 0;
 }
-<<<<<<< HEAD
-
-.InfiniteCarouselDots {
-    display: none;
-}
-
-=======
 .InfiniteCarouselArrowIcon {
 	display: inline-block;
 	padding: 10px;
 	border: solid #fff ;
 	border-width: 0 5px 5px 0;
 }
->>>>>>> d124147277f2ae35e7b3a529ba2dcfc646e63b15
+
+.InfiniteCarouselDot {
+    display: none !important;
+}
+
+.slider-img img{
+    width: 200px;
+    height: 200px;
+}
+.InfiniteCarouselArrowIcon {
+    display: inline-block;
+    padding: 10px;
+    border: solid #ffffff;
+    border-width: 0 5px 5px 0;
+}
+#preview-padding {
+    margin-left: 40px !important;
+}
 /* Button wrapper */
 
 .btn-wrapper {
