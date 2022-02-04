@@ -8,12 +8,12 @@ import ChatIcon from '@mui/icons-material/Chat';
 
 
 const ContactUs = () => {
-    const [currency, setCurrency] = React.useState('Love');
+    const [currency, setCurrency] = React.useState('select');
 
     const currencies = [
         {
-          value: `'Love'`,
-          label: <h6 className='lebel-drop-icon'><PersonOutlinedIcon className='drop-lebel-margin'/> <span>Name</span></h6>,
+          value: `select`,
+          label: <h6 className='lebel-drop-icon'><PersonOutlinedIcon className='drop-lebel-margin'/> <span>Select One</span></h6>,
         },
         {
           value: 'EUR',
