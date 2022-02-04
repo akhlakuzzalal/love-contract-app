@@ -12,7 +12,7 @@ const ContactUs = () => {
 
     const currencies = [
         {
-          value: `'select'`,
+          value: `select`,
           label: <h6 className='lebel-drop-icon'><PersonOutlinedIcon className='drop-lebel-margin'/> <span>Select One</span></h6>,
         },
         {
