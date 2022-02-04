@@ -12,10 +12,10 @@ const CreateCertificate = () => {
         <div>
             <h1>Create Certificate</h1>
             <Grid container spacing={2}>
-            <Grid sx={{display:'flex',justifyContent:'center'}} item xs={6}>
-                   <img width={'400px'} src={createImg} alt=''/>
+            <Grid sx={{display:'flex',justifyContent:'center'}} item xs={12} md={6}>
+                   <img className='section-img' width={'400px'} src={createImg} alt=''/>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>First Name</span></h6>} variant="outlined" />
                     <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>Last Name</span></h6>} variant="outlined" />
                     <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>First Name</span></h6>} variant="outlined" />

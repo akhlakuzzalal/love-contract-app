@@ -20,28 +20,25 @@ const Payment = () => {
          <Grid container spacing={2}>
              
                 <Grid item xs={6}>
-                <div className="pay-item">
-                
-                    <p><CreditCardIcon/> Pay with Credit</p>
-                    <FormControl>
-                        <RadioGroup
-                            aria-labelledby="demo-radio-buttons-group-label"
-                            defaultValue="female"
-                            name="radio-buttons-group"
-                        >
-                            <FormControlLabel value="female" control={<Radio />} label="Female" />
-                        </RadioGroup>
-                    </FormControl>
-                    
-               
-                </div>
+                    <div className="pay-item">
+                        <p><CreditCardIcon/> Pay with Credit</p>
+                         <FormControl>
+                            <RadioGroup
+                                aria-labelledby="demo-radio-buttons-group-label"
+                                defaultValue="female"
+                                name="radio-buttons-group"
+                            >   
+                                <FormControlLabel value="female" control={<Radio />} label="Female" />
+                            </RadioGroup>
+                        </FormControl>
+                    </div>
                     
                     {/* <li className='pay-item'>Pay with Crypto</li> */}
                 
                 </Grid>
-                <Grid item xs={6}>
-                     <img width={'380px'} src={payImg} alt=''/>
-                </Grid>
+                <Grid sx={{display:'flex',justifyContent:'center'}} item xs={12} md={6}>
+                <img className='section-img' width={'400px'} src={payImg} alt=''/>
+            </Grid>
             </Grid>
          <Grid container spacing={2}>
                 <Grid item xs={6}>

@@ -14,3 +14,21 @@
     left: 12%;
     width: 80%;
 }
+.icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner-icon {
+    margin-left: 75px;
+    font-size: 32px;
+    background-color: #ffffff57;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner-icon:first-child{
+    margin-left: 0Px;
+}

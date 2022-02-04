@@ -7,6 +7,9 @@
     background-color: white;
     border-radius: 5px;
 }
+.certificate-input:hover{
+    border: 0 !important;
+}
 .radio-btn .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
     color: #ffffff;
 }
@@ -30,6 +33,11 @@
     background-color: #ffff;
     margin-top: 10px !important;
     border-radius: 5px;
+}
+#heading-text{
+    display: flex;
+    align-items: center;
+    line-height: 0;
 }
 
 /* Button wrapper */

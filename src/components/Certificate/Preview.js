@@ -6,7 +6,7 @@ const Preview = () => {
         <div>
             <h1>Preview</h1>
             <div style={{display:'flex',justifyContent:'center',width:'100%'}}>
-            <img width={'800px'} src={certificate} alt="" />
+            <img id='preview-img' width={'800px'} src={certificate} alt="" />
             </div>
         </div>
     );

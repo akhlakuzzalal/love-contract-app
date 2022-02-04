@@ -10,11 +10,11 @@ import CertificateSlider from './CertificateSlider';
 const Certificate = () => {
     return (
         <div className='container'>
-          <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Akignment</h1>
+          <h1 id='#heading-text'><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Akignment</h1>
             <Grid sx={{textAlign:'center',color:"#ffff"}} container spacing={2}>
                 <Grid  item xs={12} md={6}>
                     <Grid container spacing={2}>
-                        <Grid item xs={6}>
+                        <Grid item xs={12} md={6}>
                         <FormControl className='radio-btn'>
                          <RadioGroup
                            aria-labelledby="demo-radio-buttons-group-label"
@@ -27,7 +27,7 @@ const Certificate = () => {
                          </RadioGroup>
                         </FormControl>
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item xs={12} md={6}>
                         <FormControl className='radio-btn'>
                          <RadioGroup
                            aria-labelledby="demo-radio-buttons-group-label"
@@ -42,7 +42,7 @@ const Certificate = () => {
                     </Grid>
                 </Grid>
                 <Grid sx={{display:'flex',justifyContent:'center'}} item xs={12} md={6}>
-                   <img width={'400px'} src={alignmentImg} alt=''/>
+                   <img className='section-img' width={'400px'} src={alignmentImg} alt=''/>
                 </Grid>
             </Grid>
             <CertificateSlider></CertificateSlider>

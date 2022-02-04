@@ -5,6 +5,7 @@ import Certificate from '../Certificate/Certificate';
 import ContactUs from '../ContactUs/ContactUs';
 import Payment from '../Payment/Payment';
 import FAQ from '../FAQ/FAQ';
+import '../responsive/responsive.css'
 
 const FullPage = () => {
     return (
