@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 .App {
-  text-align: center;
   background: url("/src/img/background-image.png");
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 
-=======
-.App{
-    background-image: url('./img/background-image.png');
-    margin: o;
-}
->>>>>>> 21feb6efee39aaa69658c760ac1b31aafe4f3a8d
+

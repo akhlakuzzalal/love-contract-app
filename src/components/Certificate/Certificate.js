@@ -9,7 +9,7 @@ import second from '../../img/love-point/love2.png'
 const Certificate = () => {
     return (
         <div className='container'>
-          <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Akignment</h1>
+          <h1 style={{display:"flex",alignItems:'center',lineHeight:0}}><span style={{marginRight:'15px'}}><img width={'50px'} src={second} alt="" /></span> Certificate &amp; Alignment</h1>
             <Grid container spacing={2}>
                 <Grid  item xs={6}>
                     <Grid container spacing={2}>
