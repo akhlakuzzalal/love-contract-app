@@ -19,15 +19,15 @@ const CreateCertificate = () => {
                    <img className='section-img' width={'400px'} src={createImg} alt=''/>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>First Name</span></h6>} variant="outlined" />
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>Last Name</span></h6>} variant="outlined" />
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span>First Name</span></h6>} variant="outlined" />
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><CallIcon/> <span>Contact</span></h6>} variant="outlined" />
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><MailOutlineIcon/> <span>Email Address</span></h6>} variant="outlined" />
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><HttpsOutlinedIcon/> <span>Password</span></h6>} variant="outlined" />
-                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><HttpsOutlinedIcon/> <span>Confirm Password</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span className='create-text'>First Name</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span className='create-text'>Last Name</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><PersonOutlinedIcon/> <span className='create-text'>Partner Name</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><CallIcon/> <span className='create-text'>Contact</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><MailOutlineIcon/> <span className='create-text'>Email Address</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><HttpsOutlinedIcon/> <span className='create-text'>Password</span></h6>} variant="outlined" />
+                    <TextField className='certificate-input' id="outlined-basic" label={<h6 className='lebel-icon'><HttpsOutlinedIcon/> <span className='create-text'>Confirm Password</span></h6>} variant="outlined" />
                     <div className='btn-wrapper ms-4 mt-3'>
-                        <button className='upload-btn'><FileUploadOutlinedIcon/> Upload Image</button>
+                        <button className='upload-btn'><FileUploadOutlinedIcon className='up-icon'/> Upload Image</button>
                         <input required accept='image/*' type="file" placeholder='Image' />
                     </div>
                 </Grid>
