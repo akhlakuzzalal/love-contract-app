@@ -1,0 +1,71 @@
+
+.setion-title{
+display: flex;
+align-items: center;
+}
+.setion-title h1{
+margin-left: 15px;
+}
+.border{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 40px;
+}
+.pay-list {
+    list-style: none;
+    padding: 5px 20px;
+    color: #fff;
+}
+.pay-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #ff2646;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.pay-item p{
+  display: flex;
+  align-items: center;
+}
+.pay-lf-item{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 60%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #ff2646;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.pay-rf-btn{
+    width: 70%;
+}
+.star-icon{
+    font-size: 15px !important;
+}
+.bit-icon{
+    font-size: 22px !important;
+}
+.radio-red .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #fff;
+}
+.radio-red .css-hyxlzm {
+    color: #FF2646;
+}
+.mt-80{
+    margin-top: -80px;
+    width: 60%;
+}
+.mt-100{
+    padding-left: 100px;
+}
+.ml {
+    margin-left: -30px;
+}

@@ -1,0 +1,16 @@
+.accordion-title{
+    color: #fff;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #fff;
+}
+.acordion-border .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.acordion-border-active .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+    background-color: rgb(255 255 255 / 73%) !important;
+}
+.faq-img {
+	width: 300px;
+	margin-top: -120px;
+}
+

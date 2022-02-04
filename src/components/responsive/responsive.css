@@ -1,0 +1,135 @@
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding: 40px 40px;
+    }
+    .banner-cloud {
+        width: 70%;
+        top: -232px;
+        padding: 65px 0;
+    }
+    .inserted-style {
+        width: 100%;
+    }
+    .banner-text {
+        top: 29%;
+        left: 18%;
+        width: 70%;
+    }
+    .pay-lf-item {
+        width: 72%;
+        font-size: 16px;
+    }
+    .faq-img {
+        display: none;
+    }
+    .css-mhc70k-MuiGrid-root {
+        flex-wrap: nowrap !important;
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .section-img{
+        display: none;
+    }
+    .container{
+        margin: 0;
+        padding: 20px 30px !important;
+        text-align: center;
+    }
+    .banner-icon {
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .inserted-style {
+        width: 100%;
+    }
+    .instract-item {
+        -webkit-clip-path: polygon(5% 0%,95% 0%,100% 50%,95% 100%,5% 100%,0% 50%);
+        clip-path: polygon(10% 0%,90% 0%,100% 50%,90% 100%,10% 100%,0% 50%);
+        font-size: 14px;
+    }
+    .setion-title h1 {
+        margin-left: 5px;
+        font-size: 35px;
+    }
+    .css-1hj5fly-MuiGrid-root {
+        text-align: left !important;
+        padding: 0 10px;
+    }
+    .pay-img{
+        display: none;
+    }
+    .pay-item {
+        width: 90%;
+    }
+    .pay-lf-item {
+        width: 90%;
+        font-size: 16px;
+    }
+    .pay-lf-item {
+        width: 90%;
+        font-size: 16px;
+    }
+    .faq-img {
+        display: none;
+    }
+    .contact-us-input {
+        width: 90%;
+    }
+    .contact-title {
+        text-align: left;
+    }
+    .contact-message {
+        width: 90%;
+    }
+    #heading-text{
+        background-color: aqua;
+    }
+    #preview-img{
+        width: 300px;
+    }
+    .banner-cloud {
+        position: relative;
+        left: 0%;
+        width: 100%;
+        margin-bottom:0;
+        top: 0px;
+    }
+    .icon-container {
+        padding-bottom: 25px;
+    }
+    .banner-area {
+        background: none;
+    }
+    .banner-icon {
+        background-color: #FF8397;
+    }
+    .banner-text {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    .upload-btn {
+        font-size: 16px;
+    }
+ 
+
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

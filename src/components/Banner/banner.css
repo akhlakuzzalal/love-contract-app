@@ -1,0 +1,34 @@
+.banner-area{
+    background: #FF2646;
+}
+.banner-cloud {
+    position: relative;
+    left: 30%;
+    width: 70%;
+    margin-bottom: -270px;
+    top: -270px;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-text {
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    width: 80%;
+}
+.icon-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner-icon {
+    margin-right: 75px;
+    font-size: 22px;
+    background-color: #F94F5F;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}

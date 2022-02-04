@@ -1,0 +1,49 @@
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+
+.message-input {
+    width: 75%;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    transform: skew(21deg 21deg 40deg 50deg); 
+}
+.contact-us-input {
+    width: 75%;
+    background-color: white;
+    border-radius: 5px;
+}
+.contact-us-input-container h5{
+    line-height: 0;
+    margin-left: 15px;
+    color: #fff;
+}
+.lebel-drop-icon {
+    height: 0px;
+    display: flex;
+    align-items: center !important;
+    justify-content: start;
+    margin-top: 12px;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    height: 0px !important;
+}
+.drop-lebel-margin{
+    margin-right: 10px;
+}
+.create-text{
+    color: #CDCDCD;
+    font-size: 16px ;
+    font-weight: 500;
+}
+.contact-title{
+    color: #CDCDCD;
+    font-size: 18px ;
+    font-weight: 500;
+}
